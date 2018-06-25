@@ -2,7 +2,7 @@ package hm.binkley.nullitudinous;
 
 import lombok.NonNull;
 
-public final class TypeWithLombokNonNullField_Generated {
+public final class LombokNonNullField_Generated {
     private final int aPrimitiveField;
     private final String aNullableField;
     @NonNull
@@ -10,7 +10,7 @@ public final class TypeWithLombokNonNullField_Generated {
 
     @java.beans.ConstructorProperties(
             {"aPrimitiveField", "aNullableField", "aNonNullField"})
-    public TypeWithLombokNonNullField_Generated(final int aPrimitiveField,
+    public LombokNonNullField_Generated(final int aPrimitiveField,
             final String aNullableField, final String aNonNullField) {
         this.aPrimitiveField = aPrimitiveField;
         this.aNullableField = aNullableField;

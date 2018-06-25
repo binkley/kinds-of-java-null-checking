@@ -10,8 +10,10 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.0'
     annotationProcessor 'org.projectlombok:lombok:1.18.0'
 
-    compile 'org.hibernate.validator:hibernate-validator:6.0.10.Final'
+    compile 'org.hibernate:hibernate-validator:6.0.10.Final'
     compile 'org.jetbrains:annotations:16.0.2'
+
+    runtime 'org.glassfish:javax.el:3.0.1-b10'
 }
 
 defaultTasks 'clean', 'build'
