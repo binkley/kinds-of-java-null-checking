@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.0'
+    compile 'javax.validation:validation-api:2.0.1.Final'
+    compile 'org.jetbrains:annotations:16.0.2'
+}
+
+defaultTasks 'clean', 'build'
